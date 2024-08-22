@@ -1,0 +1,6 @@
+name: conversao-temperatura
+services:
+    conversao-temperatura:
+        ports:
+            - 8080:8080
+        image: conversao-temperatura:1.0
